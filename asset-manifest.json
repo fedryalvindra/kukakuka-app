@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kukakuka-app/static/css/main.c991f905.css",
-    "main.js": "/kukakuka-app/static/js/main.68c449e1.js",
+    "main.css": "/kukakuka-app/static/css/main.51ca0aa6.css",
+    "main.js": "/kukakuka-app/static/js/main.05b360aa.js",
     "static/js/787.aa7a8d45.chunk.js": "/kukakuka-app/static/js/787.aa7a8d45.chunk.js",
     "index.html": "/kukakuka-app/index.html",
-    "main.c991f905.css.map": "/kukakuka-app/static/css/main.c991f905.css.map",
-    "main.68c449e1.js.map": "/kukakuka-app/static/js/main.68c449e1.js.map",
+    "main.51ca0aa6.css.map": "/kukakuka-app/static/css/main.51ca0aa6.css.map",
+    "main.05b360aa.js.map": "/kukakuka-app/static/js/main.05b360aa.js.map",
     "787.aa7a8d45.chunk.js.map": "/kukakuka-app/static/js/787.aa7a8d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c991f905.css",
-    "static/js/main.68c449e1.js"
+    "static/css/main.51ca0aa6.css",
+    "static/js/main.05b360aa.js"
   ]
 }
