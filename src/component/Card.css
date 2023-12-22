@@ -1,0 +1,58 @@
+.card {
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 18px;
+    width: 20rem;
+    height: 11rem;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-btn {
+    width: 100%;
+    background-color: #ffdd40;
+    color: black;
+    border: solid black 1px;
+}
+
+.card-btn:hover {
+    background-color: rgb(95, 103, 51);
+    border: solid black 2px;
+    color: white;
+}
+
+@media screen and (max-width: 860px) {
+    .card {
+        margin: 5px 5px 5px 5px;
+        padding-bottom: 18px;
+        width: 10rem;
+        height: 11rem;
+    }
+    
+    .card-title {
+        font-size: 12px;
+    }
+    
+    .card-text {
+        font-size: 8px;
+    }
+    
+    .card-btn {
+        font-size: 12px;
+        width: 100%;
+        background-color: #ffdd40;
+        color: black;
+        border: solid black 1px;
+    }
+    
+    .card-btn:hover {
+        background-color: rgb(95, 103, 51);
+        border: solid black 2px;
+        color: white;
+    }
+}
