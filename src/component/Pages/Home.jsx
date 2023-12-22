@@ -6,7 +6,7 @@ import CardList from "../CardList";
 export const Home = () => {
   return (
     <div className="home">
-
+      <div className="home-img">
       <div className="img-gif">
         <div className="container">
           <div className="row">
@@ -19,17 +19,20 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1 className="article">Article</h1>
+      <div className="article-container">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h1 className="article">Article</h1>
+            </div>
+          </div>
+        </div>
+        <div className="card-collect container">
+          <div className="card-row row">
+            <CardList />
           </div>
         </div>
       </div>
-      <div className="card-collect container">
-          <div className="card-row row">
-              <CardList />
-          </div>
       </div>
     </div>
   );

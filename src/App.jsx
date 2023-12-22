@@ -20,7 +20,6 @@ class App extends Component {
               <Route path="/contact" element={<Contact />} />
             </Routes>
         </Router>
-
       </div>
     );
   }

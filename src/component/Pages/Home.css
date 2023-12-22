@@ -1,18 +1,24 @@
-/* .home {
-    background-color: #1f5156;
-} */
+.home {
+    background-color: white;
+}
+
+.home-img {
+    height: 50rem;
+    width: 100%;
+    background: url("https://media.gq-magazine.co.uk/photos/6565ec1e843ca79f395ad157/master/w_1920,c_limit/falede.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: changeimg ease 15s infinite;
+    fill-opacity: calc(0.6)
+}
 
 .img-gif {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://media.gq-magazine.co.uk/photos/6565ec1e843ca79f395ad157/master/w_1920,c_limit/falede.jpg");
-    background-repeat: no-repeat;
     height: 40em;
-    background-size: cover;
-    background-position: center center;
-    animation: changeimg ease 15s infinite;
-    fill-opacity: calc(0.6)
 }
 
 .header-text {
@@ -52,6 +58,10 @@
     font-size: 24px;
 }
 
+.article-container {
+    background-color: white;
+}
+
 @keyframes changeimg {
 
     0%,
@@ -69,17 +79,12 @@
 }
 
 @media screen and (max-width: 1060px) {
+
     .img-gif {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("https://media.gq-magazine.co.uk/photos/6565ec1e843ca79f395ad157/master/w_1920,c_limit/falede.jpg");
-        background-repeat: no-repeat;
         height: 40em;
-        background-size: cover;
-        background-position: center center;
-        animation: changeimg ease 15s infinite;
-        fill-opacity: calc(0.6)
     }
 
     .header-text {
@@ -125,13 +130,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("https://media.gq-magazine.co.uk/photos/6565ec1e843ca79f395ad157/master/w_1920,c_limit/falede.jpg");
-        background-repeat: no-repeat;
         height: 40em;
-        background-size: cover;
-        background-position: center center;
-        animation: changeimg ease 15s infinite;
-        fill-opacity: calc(0.6)
     }
 
     .header-text {
