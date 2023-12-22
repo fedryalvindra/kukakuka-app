@@ -14,8 +14,8 @@ class App extends Component {
         <Router>
           <NavBar />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/" element={<About />} />
+              <Route path="/kukakuka-app" element={<Home />} index/>
+              <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>

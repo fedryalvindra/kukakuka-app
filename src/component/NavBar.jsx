@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
+import { Home } from "./Pages/Home";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact to="/kukakuka-app" className="nav-logo">
             <p><b>KUKAKUKA</b></p>
             <span className="icon">
             </span>
@@ -21,7 +22,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/kukakuka-app"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -78,6 +79,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      
     </>
   );
 }
