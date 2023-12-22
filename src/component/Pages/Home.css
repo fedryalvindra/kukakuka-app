@@ -54,7 +54,7 @@
 
 
 .article {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 24px;
 }
 
@@ -84,7 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40em;
+        height: 45em;
     }
 
     .header-text {
@@ -130,7 +130,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40em;
+        height: 45em;
     }
 
     .header-text {
