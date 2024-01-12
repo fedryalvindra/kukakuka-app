@@ -8,7 +8,7 @@ const Card = ({judul, deskripsi}) => {
                 <h5 class="card-title">{judul}</h5>
                 <p class="card-text">{deskripsi}</p>
             </div>
-            <a href="#home" class="card-btn btn btn-primary">Read</a>
+            <a href="#home" class="card-btn btn">Read</a>
         </div>
     )
 }

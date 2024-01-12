@@ -11,12 +11,11 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/kukakuka-app" className="nav-logo">
+          <div className="nav-logo">
             <p><b>KUKAKUKA</b></p>
             <span className="icon">
             </span>
-          </NavLink>
-
+          </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
@@ -32,34 +31,45 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/about"
+                to="/shop"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Shop
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/features"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Features
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/Account"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Account
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/aboutus"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About Us
               </NavLink>
             </li>
           </ul>
@@ -78,7 +88,6 @@ function NavBar() {
           </div>
         </div>
       </nav>
-      
     </>
   );
 }

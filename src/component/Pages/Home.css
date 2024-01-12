@@ -3,14 +3,14 @@
 }
 
 .home-img {
-    height: 50rem;
+    height: 60rem;
     width: 100%;
     background: url("https://media.gq-magazine.co.uk/photos/6565ec1e843ca79f395ad157/master/w_1920,c_limit/falede.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    animation: changeimg ease 15s infinite;
+    animation: changeimg ease 10s infinite;
     fill-opacity: calc(0.6)
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40em;
+    height: 50em;
 }
 
 .header-text {
@@ -35,9 +35,9 @@
 
 .subscribeBtn {
     background-color: #ffdd40;
-    padding: 10px 40px;
+    padding: 5px 10px;
     border: solid black 1px;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .subscribeBtn:hover {
@@ -51,7 +51,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .article {
     margin-top: 20px;
@@ -80,6 +79,10 @@
 
 @media screen and (max-width: 1060px) {
 
+    .home-img {
+        height: 45em;
+    }
+
     .img-gif {
         display: flex;
         justify-content: center;
@@ -101,9 +104,9 @@
 
     .subscribeBtn {
         background-color: #ffdd40;
-        padding: 10px 40px;
+        padding: 5px 10px;
         border: solid black 1px;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .subscribeBtn:hover {
@@ -126,16 +129,20 @@
 }
 
 @media screen and (max-width: 860px) {
+    .home-img {
+        height: 45em;
+    }
+
     .img-gif {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 45em;
+        height: 30em;
     }
 
     .header-text {
         color: white;
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .description {
@@ -147,9 +154,9 @@
 
     .subscribeBtn {
         background-color: #ffdd40;
-        padding: 10px 40px;
+        padding: 5px 10px;
         border: solid black 1px;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .subscribeBtn:hover {
@@ -167,6 +174,6 @@
 
     .article {
         margin-top: 10px;
-        font-size: 24px;
+        font-size: 20px;
     }
 }

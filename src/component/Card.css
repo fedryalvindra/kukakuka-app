@@ -19,6 +19,7 @@
     background-color: #ffdd40;
     color: black;
     border: solid black 1px;
+    border-radius: 20px;
 }
 
 .card-btn:hover {
@@ -30,7 +31,7 @@
 @media screen and (max-width: 860px) {
     .card {
         border: 0px;
-        margin: 5px 5px 5px 5px;
+        margin: 10px 5px 5px 5px;
         padding-bottom: 18px;
         width: 10rem;
         height: 11rem;
